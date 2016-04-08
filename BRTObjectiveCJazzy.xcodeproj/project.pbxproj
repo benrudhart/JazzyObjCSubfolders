@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5650BDF1CAD04E7007F2E4E /* BRTObjectiveCJazzy.h in Headers */ = {isa = PBXBuildFile; fileRef = B5650BDE1CAD04E7007F2E4E /* BRTObjectiveCJazzy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5650BE71CAD338E007F2E4E /* BRTSomeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4F96171CA2EE86004D1488 /* BRTSomeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D8D36A1CA28C1700F706D8 /* BRTObjectiveCJazzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D8D3631CA28C1700F706D8 /* BRTObjectiveCJazzy.framework */; };
+		B5D8D36B1CA28C1700F706D8 /* BRTObjectiveCJazzy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5D8D3631CA28C1700F706D8 /* BRTObjectiveCJazzy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5D8D3741CA28DB800F706D8 /* BRTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D8D3721CA28DB800F706D8 /* BRTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D8D3751CA28DB800F706D8 /* BRTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D8D3731CA28DB800F706D8 /* BRTExample.m */; };
+		BD4D32761CAAA99E001BC1F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD4D32751CAAA99E001BC1F7 /* Info.plist */; };
+		BD9404561CAD0BD20043B767 /* BRTSomeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9404551CAD0BD20043B767 /* BRTSomeDataSource.h */; };
+		BDA06BC61CA27ADC0096BF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA06BC51CA27ADC0096BF3E /* main.m */; };
+		BDA06BC91CA27ADC0096BF3E /* BRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA06BC81CA27ADC0096BF3E /* BRTAppDelegate.m */; };
+		BDA06BCF1CA27ADD0096BF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA06BCD1CA27ADD0096BF3E /* Main.storyboard */; };
+		BDA06BD41CA27ADD0096BF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA06BD21CA27ADD0096BF3E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D8D3681CA28C1700F706D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA06BB91CA27ADC0096BF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D8D3621CA28C1700F706D8;
+			remoteInfo = SinglePurposePresenterModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5D8D36F1CA28C1700F706D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B5D8D36B1CA28C1700F706D8 /* BRTObjectiveCJazzy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5650BDE1CAD04E7007F2E4E /* BRTObjectiveCJazzy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTObjectiveCJazzy.h; sourceTree = "<group>"; };
+		B5D8D3631CA28C1700F706D8 /* BRTObjectiveCJazzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRTObjectiveCJazzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D8D3721CA28DB800F706D8 /* BRTExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTExample.h; sourceTree = "<group>"; };
+		B5D8D3731CA28DB800F706D8 /* BRTExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTExample.m; sourceTree = "<group>"; };
+		BD4D32751CAAA99E001BC1F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4F96171CA2EE86004D1488 /* BRTSomeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRTSomeDelegate.h; sourceTree = "<group>"; };
+		BD9404551CAD0BD20043B767 /* BRTSomeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTSomeDataSource.h; sourceTree = "<group>"; };
+		BDA06BC11CA27ADC0096BF3E /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA06BC51CA27ADC0096BF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDA06BC71CA27ADC0096BF3E /* BRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRTAppDelegate.h; sourceTree = "<group>"; };
+		BDA06BC81CA27ADC0096BF3E /* BRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRTAppDelegate.m; sourceTree = "<group>"; };
+		BDA06BCE1CA27ADD0096BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA06BD31CA27ADD0096BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA06BD51CA27ADD0096BF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D8D35F1CA28C1700F706D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA06BBE1CA27ADC0096BF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D8D36A1CA28C1700F706D8 /* BRTObjectiveCJazzy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D8D3641CA28C1700F706D8 /* ObjectiveCJazzy */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FCBD11CAA58DA00461B87 /* Subfolder1 */,
+				BD2FCBCF1CAA588600461B87 /* Subfolder2 */,
+				B5650BDE1CAD04E7007F2E4E /* BRTObjectiveCJazzy.h */,
+				BD4D32751CAAA99E001BC1F7 /* Info.plist */,
+			);
+			path = ObjectiveCJazzy;
+			sourceTree = "<group>";
+		};
+		BD2FCBCF1CAA588600461B87 /* Subfolder2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD9404551CAD0BD20043B767 /* BRTSomeDataSource.h */,
+				BD4F96171CA2EE86004D1488 /* BRTSomeDelegate.h */,
+			);
+			path = Subfolder2;
+			sourceTree = "<group>";
+		};
+		BD2FCBD11CAA58DA00461B87 /* Subfolder1 */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8D3721CA28DB800F706D8 /* BRTExample.h */,
+				B5D8D3731CA28DB800F706D8 /* BRTExample.m */,
+			);
+			path = Subfolder1;
+			sourceTree = "<group>";
+		};
+		BDA06BB81CA27ADC0096BF3E = {
+			isa = PBXGroup;
+			children = (
+				BDA06BC31CA27ADC0096BF3E /* ExampleProject */,
+				B5D8D3641CA28C1700F706D8 /* ObjectiveCJazzy */,
+				BDA06BC21CA27ADC0096BF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA06BC21CA27ADC0096BF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA06BC11CA27ADC0096BF3E /* ExampleProject.app */,
+				B5D8D3631CA28C1700F706D8 /* BRTObjectiveCJazzy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA06BC31CA27ADC0096BF3E /* ExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				BDA06BC41CA27ADC0096BF3E /* Supporting Files */,
+				BDA06BC71CA27ADC0096BF3E /* BRTAppDelegate.h */,
+				BDA06BC81CA27ADC0096BF3E /* BRTAppDelegate.m */,
+				BDA06BD51CA27ADD0096BF3E /* Info.plist */,
+				BDA06BD21CA27ADD0096BF3E /* LaunchScreen.storyboard */,
+				BDA06BCD1CA27ADD0096BF3E /* Main.storyboard */,
+			);
+			path = ExampleProject;
+			sourceTree = "<group>";
+		};
+		BDA06BC41CA27ADC0096BF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA06BC51CA27ADC0096BF3E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5D8D3601CA28C1700F706D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5650BDF1CAD04E7007F2E4E /* BRTObjectiveCJazzy.h in Headers */,
+				BD9404561CAD0BD20043B767 /* BRTSomeDataSource.h in Headers */,
+				B5650BE71CAD338E007F2E4E /* BRTSomeDelegate.h in Headers */,
+				B5D8D3741CA28DB800F706D8 /* BRTExample.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5D8D3621CA28C1700F706D8 /* BRTObjectiveCJazzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D8D36E1CA28C1700F706D8 /* Build configuration list for PBXNativeTarget "BRTObjectiveCJazzy" */;
+			buildPhases = (
+				B5D8D35E1CA28C1700F706D8 /* Sources */,
+				B5D8D35F1CA28C1700F706D8 /* Frameworks */,
+				B5D8D3601CA28C1700F706D8 /* Headers */,
+				B5D8D3611CA28C1700F706D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRTObjectiveCJazzy;
+			productName = SinglePurposePresenterModule;
+			productReference = B5D8D3631CA28C1700F706D8 /* BRTObjectiveCJazzy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDA06BC01CA27ADC0096BF3E /* ExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA06BD81CA27ADD0096BF3E /* Build configuration list for PBXNativeTarget "ExampleProject" */;
+			buildPhases = (
+				BDA06BBD1CA27ADC0096BF3E /* Sources */,
+				BDA06BBE1CA27ADC0096BF3E /* Frameworks */,
+				BDA06BBF1CA27ADC0096BF3E /* Resources */,
+				B5D8D36F1CA28C1700F706D8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D8D3691CA28C1700F706D8 /* PBXTargetDependency */,
+			);
+			name = ExampleProject;
+			productName = Sidenavigation;
+			productReference = BDA06BC11CA27ADC0096BF3E /* ExampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA06BB91CA27ADC0096BF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRT;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ben Rudhart";
+				TargetAttributes = {
+					B5D8D3621CA28C1700F706D8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BDA06BC01CA27ADC0096BF3E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BDA06BBC1CA27ADC0096BF3E /* Build configuration list for PBXProject "BRTObjectiveCJazzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA06BB81CA27ADC0096BF3E;
+			productRefGroup = BDA06BC21CA27ADC0096BF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA06BC01CA27ADC0096BF3E /* ExampleProject */,
+				B5D8D3621CA28C1700F706D8 /* BRTObjectiveCJazzy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D8D3611CA28C1700F706D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA06BBF1CA27ADC0096BF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D32761CAAA99E001BC1F7 /* Info.plist in Resources */,
+				BDA06BD41CA27ADD0096BF3E /* LaunchScreen.storyboard in Resources */,
+				BDA06BCF1CA27ADD0096BF3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D8D35E1CA28C1700F706D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D8D3751CA28DB800F706D8 /* BRTExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA06BBD1CA27ADC0096BF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA06BC91CA27ADC0096BF3E /* BRTAppDelegate.m in Sources */,
+				BDA06BC61CA27ADC0096BF3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D8D3691CA28C1700F706D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D8D3621CA28C1700F706D8 /* BRTObjectiveCJazzy */;
+			targetProxy = B5D8D3681CA28C1700F706D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA06BCD1CA27ADD0096BF3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA06BCE1CA27ADD0096BF3E /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		BDA06BD21CA27ADD0096BF3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA06BD31CA27ADD0096BF3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D8D36C1CA28C1700F706D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ObjectiveCJazzy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benrudhart.objcjazzy;
+				PRODUCT_NAME = BRTObjectiveCJazzy;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5D8D36D1CA28C1700F706D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ObjectiveCJazzy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benrudhart.objcjazzy;
+				PRODUCT_NAME = BRTObjectiveCJazzy;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDA06BD61CA27ADD0096BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-error-deprecated-declarations",
+					"-Wno-error-deprecated-implementations",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-unused-parameter",
+					"-Wno-covered-switch-default",
+					"-Wno-direct-ivar-access",
+					"-Wno-assign-enum",
+					"-Wno-float-equal",
+					"-Wno-vla",
+					"-Wno-documentation-unknown-command",
+					"-Wno-packed",
+					"-Wno-padded",
+					"-Wno-auto-import",
+					"-Wno-selector",
+					"-Wno-receiver-is-weak",
+					"-Wno-sign-conversion",
+					"-Wno-auto-import",
+					"-Wno-static-in-inline",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"-Wno-gnu-statement-expression",
+					"-Wno-language-extension-token",
+					"-Wno-pointer-arith",
+					"-Wno-empty-translation-unit",
+					"-Wno-format-non-iso",
+					"-Wno-comment",
+					"-Wno-gnu-folding-constant",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-c++98-compat",
+					"-Wno-old-style-cast",
+					"-Wno-incomplete-module",
+					"-Wno-vla-extension",
+					"-Wno-c99-extensions",
+					"-Wno-cstring-format-directive",
+					"-Rno-module-build",
+					"-Wno-missing-variable-declarations",
+					"-Wno-switch-enum",
+				);
+			};
+			name = Debug;
+		};
+		BDA06BD71CA27ADD0096BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-error-deprecated-declarations",
+					"-Wno-error-deprecated-implementations",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-unused-parameter",
+					"-Wno-covered-switch-default",
+					"-Wno-direct-ivar-access",
+					"-Wno-assign-enum",
+					"-Wno-float-equal",
+					"-Wno-vla",
+					"-Wno-documentation-unknown-command",
+					"-Wno-packed",
+					"-Wno-padded",
+					"-Wno-auto-import",
+					"-Wno-selector",
+					"-Wno-receiver-is-weak",
+					"-Wno-sign-conversion",
+					"-Wno-auto-import",
+					"-Wno-static-in-inline",
+					"-Wno-gnu-conditional-omitted-operand",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"-Wno-gnu-statement-expression",
+					"-Wno-language-extension-token",
+					"-Wno-pointer-arith",
+					"-Wno-empty-translation-unit",
+					"-Wno-format-non-iso",
+					"-Wno-comment",
+					"-Wno-gnu-folding-constant",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-c++98-compat",
+					"-Wno-old-style-cast",
+					"-Wno-incomplete-module",
+					"-Wno-vla-extension",
+					"-Wno-c99-extensions",
+					"-Wno-cstring-format-directive",
+					"-Rno-module-build",
+					"-Wno-missing-variable-declarations",
+					"-Wno-switch-enum",
+				);
+			};
+			name = Release;
+		};
+		BDA06BD91CA27ADD0096BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mcom.benrudhart.objcjazzyexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDA06BDA1CA27ADD0096BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mcom.benrudhart.objcjazzyexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D8D36E1CA28C1700F706D8 /* Build configuration list for PBXNativeTarget "BRTObjectiveCJazzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D8D36C1CA28C1700F706D8 /* Debug */,
+				B5D8D36D1CA28C1700F706D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA06BBC1CA27ADC0096BF3E /* Build configuration list for PBXProject "BRTObjectiveCJazzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA06BD61CA27ADD0096BF3E /* Debug */,
+				BDA06BD71CA27ADD0096BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA06BD81CA27ADD0096BF3E /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA06BD91CA27ADD0096BF3E /* Debug */,
+				BDA06BDA1CA27ADD0096BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA06BB91CA27ADC0096BF3E /* Project object */;
+}
