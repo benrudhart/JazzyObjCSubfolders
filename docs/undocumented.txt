@@ -1,0 +1,3 @@
+BRTObjectiveCJazzy.h
+	FOUNDATION_EXPORT double BRTObjectiveCJazzyVersionNumber
+	FOUNDATION_EXPORT const unsigned char BRTObjectiveCJazzyVersionString[]
